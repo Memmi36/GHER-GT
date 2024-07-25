@@ -12,6 +12,7 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 
 ## Data Preprocessing
 1. Dawnload Briareo dataset from [(https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31)]https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31
+
 2. Execute these commands to prepare the data:
 ```python
  cd ./data/ntu # or cd ./data/ntu120
