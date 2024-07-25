@@ -10,4 +10,14 @@ To address this particularity, we propose an approach for dynamic hand gesture r
 This spatio-temporal processing framework leverages multilevel spatial feature representation of hand joints, highlighting both directly connected and distant joints. Subsequently, an attention mechanism within the graph transformer model captures the temporal dynamics effectively. The higher-order information learning models essential interactions between hand joints selectively, enhancing computational efficiency and interpretability. 
 An in-depth ablation study underscores the significance of our graph hierarchical approach and the impact of different architectural configurations. Experimental evaluations on three benchmark datasets, namely IPN, SHREC'17, and BRIAREO demonstrate the accuracy of our approach is competitive or even surpasses that reported in the state-of-the-art for the task of dynamic hand gesture recognition.
 
+## Data Preprocessing
+Dawnloading data from 
+```python
+ cd ./data/ntu # or cd ./data/ntu120
+ # Get skeleton of each performer
+ python get_raw_skes_data.py
+ # Remove the bad skeleton 
+ python get_raw_denoised_data.py
+ # Transform the skeleton to the center of the first frame
+ python seq_transformation.py
 
