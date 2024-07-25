@@ -16,11 +16,7 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 
 2. Execute these commands to prepare the data:
 ```python
- cd ./data/ntu # or cd ./data/ntu120
- # Get skeleton of each performer
- python get_raw_skes_data.py
- # Remove the bad skeleton 
- python get_raw_denoised_data.py
- # Transform the skeleton to the center of the first frame
+ cd ./data/Briareo 
+ python denoising.py
  python seq_transformation.py
 
