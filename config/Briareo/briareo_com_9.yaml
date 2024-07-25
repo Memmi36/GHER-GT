@@ -1,0 +1,48 @@
+num_worker: 8
+work_dir: ./work_dir/briareo_hdgcn/briareo_CoM_9/
+
+# feeder
+feeder: feeders.feeder_briareo.Feeder
+train_feeder_args:
+  data_path: ../data/briareo.npz
+  split: train
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: 16
+  normalization: False
+  random_rot: True
+  p_interval: [0.5, 1]
+  bone: False
+
+test_feeder_args:
+  data_path: ../data/briareo.npz
+  split: test
+  window_size: 16
+  p_interval: [0.95]
+  bone: False
+  debug: False
+
+# model
+model: model.GHER_GT.Model
+model_args:
+  num_class: 13
+  num_point: 22
+  num_person: 1
+  graph: graph.Briareo_hierarchy.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+    CoM: 9
+
+#optim
+weight_decay: 0.0004
+base_lr: 0.001
+warm_up_epoch: 20
+
+# training
+device: [0]
+batch_size: 32
+test_batch_size: 4
+num_epoch: 100
+nesterov: True
