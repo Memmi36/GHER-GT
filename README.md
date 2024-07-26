@@ -14,6 +14,14 @@ An in-depth ablation study underscores the significance of our graph hierarchica
     pip install git+https://github.com/zhijian-liu/torchpack.git
     cd ../torchlight/torchlight
     python util.py
+
+## Dependencies
+*Dependencies
+*Python >= 3.6
+*PyTorch >= 1.10.0
+*PyYAML == 5.4.1
+*torchpack == 0.2.2
+*matplotlib, einops, sklearn, tqdm, tensorboardX, h5py
    
 ## Data Preprocessing
 1. Dawnload Briareo dataset from [the AIMAGELAB Image Lab](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31).
