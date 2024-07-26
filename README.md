@@ -12,7 +12,7 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 
 ## Installation
     pip install git+https://github.com/zhijian-liu/torchpack.git
-    cd /content/drive/MyDrive/Hand Gesture HDGCN/torchlight/torchlight
+    cd ../torchlight/torchlight
     python util.py
    
 ## Data Preprocessing
