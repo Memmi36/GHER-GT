@@ -11,7 +11,7 @@ This spatio-temporal processing framework leverages multilevel spatial feature r
 An in-depth ablation study underscores the significance of our graph hierarchical approach and the impact of different architectural configurations. Experimental evaluations on three benchmark datasets, namely IPN, SHREC'17, and BRIAREO demonstrate the accuracy of our approach is competitive or even surpasses that reported in the state-of-the-art for the task of dynamic hand gesture recognition.
 
 ## Installation
-      pip install git+https://github.com/zhijian-liu/torchpack.git
+  pip install git+https://github.com/zhijian-liu/torchpack.git
    
 ## Data Preprocessing
 1. Dawnload Briareo dataset from [the AIMAGELAB Image Lab](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31).
