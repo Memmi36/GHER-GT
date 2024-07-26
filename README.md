@@ -12,14 +12,13 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 
 ## Data Preprocessing
 1. Dawnload Briareo dataset from [the AIMAGELAB Image Lab](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31).
-
-
-s2. Execute these commands to prepare the data:
-```python
- cd ./data/Briareo 
- python denoising.py
- python frames_aligning.py
- python seq_transformation.py
-'''
+2. Execute these commands to prepare the data:
+ '''Python
+  cd ./data/Briareo 
+  python denoising.py
+  python frames_aligning.py
+  python seq_transformation.py
+ 
 
 ## Usage
+'''python
