@@ -12,7 +12,7 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 
 ## Installation
    ```bash
-   pip install git+https://github.com/zhijian-liu/torchpack.git   
+    pip install git+https://github.com/zhijian-liu/torchpack.git   
 
 ## Data Preprocessing
 1. Dawnload Briareo dataset from [the AIMAGELAB Image Lab](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=31).
