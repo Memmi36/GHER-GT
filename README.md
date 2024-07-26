@@ -19,6 +19,3 @@ An in-depth ablation study underscores the significance of our graph hierarchica
  python frames_aligning.py
  python seq_transformation.py
  
-
-## Usage
-'''python
