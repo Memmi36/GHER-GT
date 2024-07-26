@@ -22,5 +22,3 @@ An in-depth ablation study underscores the significance of our graph hierarchica
 ## Usage
    ```bash
    python main.py --config ./config/briareo/briareo_com_9.yaml --device 0 --optimizer Adam
-   
- 
