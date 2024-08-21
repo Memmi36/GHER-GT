@@ -33,11 +33,11 @@ An in-depth ablation study underscores the significance of our graph hierarchica
    
 ## Citation
     @inproceedings{memmi2024ghergt,
-  title={Hand Gesture Recognition using Dual Graph Hierarchical Edges Representation and Graph Transformer Network},
-  author={Mohamed Youssef Memmi, Rim Slama, Stefano Berretti},
-  booktitle={12th International Workshop on Assistive Computer Vision and Robotics},
-  year={2024}
-}
+      title={Hand Gesture Recognition using Dual Graph Hierarchical Edges Representation and Graph Transformer Network},
+      author={Mohamed Youssef Memmi, Rim Slama, Stefano Berretti},
+      booktitle={12th International Workshop on Assistive Computer Vision and Robotics},
+      year={2024}
+    }
 
 ## Usage
    ```bash
