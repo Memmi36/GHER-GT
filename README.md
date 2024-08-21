@@ -30,6 +30,12 @@ An in-depth ablation study underscores the significance of our graph hierarchica
    python denoising.py
    python frames_aligning.py
    python seq_transformation.py
+
+## Usage
+       ```bash
+       python main.py --config ./config/briareo/briareo_com_9.yaml --device 0 --optimizer Adam
+       python main.py --config ./config/briareo/briareo_com_0.yaml --device 0 --optimizer Adam
+       python main.py --config ./config/briareo/briareo_com_1.yaml --device 0 --optimizer Adam
    
 ## Citation
     @inproceedings{memmi2024ghergt,
@@ -39,8 +45,3 @@ An in-depth ablation study underscores the significance of our graph hierarchica
       year={2024}
     }
 
-## Usage
-   ```bash
-   python main.py --config ./config/briareo/briareo_com_9.yaml --device 0 --optimizer Adam
-   python main.py --config ./config/briareo/briareo_com_0.yaml --device 0 --optimizer Adam
-   python main.py --config ./config/briareo/briareo_com_1.yaml --device 0 --optimizer Adam
