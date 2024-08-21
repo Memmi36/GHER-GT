@@ -32,7 +32,6 @@ An in-depth ablation study underscores the significance of our graph hierarchica
    python seq_transformation.py
 
 ## Usage
-       ```bash
        # Training GHER-GT with the Index Finger (9) as the starting point
        python main.py --config ./config/briareo/briareo_com_9.yaml --device 0 --optimizer Adam
        
