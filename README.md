@@ -42,7 +42,7 @@ An in-depth ablation study underscores the significance of our graph hierarchica
        python main.py --config ./config/briareo/briareo_com_1.yaml --device 0 --optimizer Adam
    
 ## Citation
-    @inproceedings{memmi2025hand,
+@inproceedings{memmi2025hand,
   title={Hand Gesture Recognition Using Dual Graph Hierarchical Edges Representation and Graph Transformer Network},
   author={Memmi, Mohamed Youssef and Slama, Rim and Berretti, Stefano},
   booktitle={European Conference on Computer Vision},
