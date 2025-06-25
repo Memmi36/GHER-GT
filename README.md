@@ -42,10 +42,13 @@ An in-depth ablation study underscores the significance of our graph hierarchica
        python main.py --config ./config/briareo/briareo_com_1.yaml --device 0 --optimizer Adam
    
 ## Citation
-    @inproceedings{memmi2024ghergt,
-      title={Hand Gesture Recognition using Dual Graph Hierarchical Edges Representation and Graph Transformer Network},
-      author={Mohamed Youssef Memmi, Rim Slama, Stefano Berretti},
-      booktitle={12th International Workshop on Assistive Computer Vision and Robotics},
-      year={2024}
-    }
+    @inproceedings{memmi2025hand,
+  title={Hand Gesture Recognition Using Dual Graph Hierarchical Edges Representation and Graph Transformer Network},
+  author={Memmi, Mohamed Youssef and Slama, Rim and Berretti, Stefano},
+  booktitle={European Conference on Computer Vision},
+  pages={53--68},
+  year={2025},
+  organization={Springer}
+}
+    
 
